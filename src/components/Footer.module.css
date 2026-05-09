@@ -1,0 +1,43 @@
+.footer {
+  margin-top: auto;
+  padding: 4rem 0 2rem;
+  background: var(--surface-1);
+  border-top: 1px solid var(--border-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: var(--chem-blue);
+  margin: 0 2px;
+}
+
+.info p {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  max-width: 300px;
+}
+
+.links {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
